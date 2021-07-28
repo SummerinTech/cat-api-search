@@ -6,6 +6,9 @@ body {
 	font-family: "Helvetica";
 }
 
+section {
+	min-height: 85vh;
+}
 h1 {
 	font-size: 3rem;
 	margin-bottom: 1rem;
@@ -37,4 +40,9 @@ img {
 	padding: 2%;
 	margin: 0 auto;
 	padding-bottom: 100%;
+}
+
+footer {
+	color: teal;
+	text-align: center;
 }
