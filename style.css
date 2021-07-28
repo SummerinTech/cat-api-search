@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+	padding: 2%;
+	background: lightgray;
+	color: teal;
+	font-family: "Helvetica";
+}
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+button {
+	border: 1px solid teal;
+	background-color: lightgray;
+	color: teal;
+	padding: 1% 2%;
+	font-size: 1.4rem;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+button:hover {
+	background: teal;
+	color: white;
+}
+
+.img-container {
+	max-height: 60vh;
+}
+
+img {
+	max-width: 100%;
+	width: 300px;
+	padding: 2%;
+	margin: 0 auto;
+	padding-bottom: 100%;
+}
