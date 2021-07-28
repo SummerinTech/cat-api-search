@@ -1,6 +1,5 @@
 body {
 	text-align: center;
-	padding: 1% 2%;
 	background: lightgray;
 	color: teal;
 	font-family: "Helvetica";
@@ -8,7 +7,7 @@ body {
 }
 
 section {
-	height: 95vh;
+	height: 85vh;
 }
 
 h1 {
