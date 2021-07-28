@@ -1,17 +1,18 @@
 body {
 	text-align: center;
-	padding: 2%;
+	padding: 1% 2%;
 	background: lightgray;
 	color: teal;
 	font-family: "Helvetica";
 }
 
 section {
-	min-height: 85vh;
+	height: 95vh;
 }
+
 h1 {
 	font-size: 3rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
 }
 
 button {
@@ -30,8 +31,12 @@ button:hover {
 	color: white;
 }
 
+button:focus {
+	outline: none;
+}
+
 .img-container {
-	max-height: 60vh;
+	height: 60vh;
 }
 
 img {
@@ -39,10 +44,17 @@ img {
 	width: 300px;
 	padding: 2%;
 	margin: 0 auto;
-	padding-bottom: 100%;
 }
 
 footer {
+	margin-top: 2rem;
+	position: absolute;
 	color: teal;
 	text-align: center;
+	width: 100%;
+}
+
+span {
+	position: relative;
+	bottom: 0;
 }

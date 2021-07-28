@@ -15,5 +15,5 @@ function fetchCat() {
 let date = new Date();
 let year = date.getFullYear();
 
-let footer = document.querySelector("footer");
-footer.innerText = `Copyright ${year} 😻 `;
+let span = document.querySelector("span");
+span.innerText = `Copyright ${year} 😻 `;
